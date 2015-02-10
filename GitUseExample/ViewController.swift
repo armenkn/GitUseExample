@@ -21,9 +21,5 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func clickTheButton(sender: UIButton) {
-        println("This is a Git tutorial!")
-    }
-
 }
 

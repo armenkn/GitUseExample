@@ -14,6 +14,7 @@
 		C07632C21A89DE400044237C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07632C11A89DE400044237C /* Images.xcassets */; };
 		C07632C51A89DE400044237C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07632C31A89DE400044237C /* LaunchScreen.xib */; };
 		C07632D11A89DE400044237C /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07632D01A89DE400044237C /* GitUseExampleTests.swift */; };
+		C07632DB1A89E2540044237C /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07632DA1A89E2540044237C /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C07632CA1A89DE400044237C /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07632CF1A89DE400044237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07632D01A89DE400044237C /* GitUseExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleTests.swift; sourceTree = "<group>"; };
+		C07632DA1A89E2540044237C /* MapForItinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapForItinerary.swift; path = ../MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C07632B41A89DE400044237C /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
+				C07632DA1A89E2540044237C /* MapForItinerary.swift */,
 				C07632B71A89DE400044237C /* AppDelegate.swift */,
 				C07632BC1A89DE400044237C /* ViewController.swift */,
 				C07632BE1A89DE400044237C /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07632DB1A89E2540044237C /* MapForItinerary.swift in Sources */,
 				C07632BD1A89DE400044237C /* ViewController.swift in Sources */,
 				C07632B81A89DE400044237C /* AppDelegate.swift in Sources */,
 				C07632BB1A89DE400044237C /* GitUseExample.xcdatamodeld in Sources */,
